@@ -1,13 +1,9 @@
 import java.io.File;
 import java.io.FileInputStream;
-//import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
-//import java.util.Arrays;
-//import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
-//import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -22,12 +18,7 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-//import org.apache.commons.lang.ArrayUtils;
 
-/**
- * Hello world!
- *
- */
 public class App {
 	/*
 	 * This function is being used to get the maximum element from the matrix
@@ -279,25 +270,6 @@ public class App {
 			System.out.print(currentMinedData.getDisease() + "\n");
 		}
 		int counter = 0;
-//		ArrayList<MinedData> minedData1 = new ArrayList<MinedData>();
-//		for (MinedData element : minedData) {
-//			for (MinedData element1 : minedData) {
-//				if (element.getAge().equals(element1.getAge()) && element.getGender().equals(element1.getGender())
-//						&& element.getZipCode().equals(element1.getZipCode())
-//						&& element.getDisease().equals(element1.getDisease())) {
-//					counter++;
-//				} else {
-//				}
-//			}
-//		}
-//
-//		System.out.println("\nMined Data after removing duplicates:\n");
-//		for (MinedData currentMinedData : minedData1) {
-//			System.out.print(currentMinedData.getAge() + "\t\t");
-//			System.out.print(currentMinedData.getGender() + "\t\t");
-//			System.out.print(currentMinedData.getZipCode() + "\t\t");
-//			System.out.print(currentMinedData.getDisease() + "\n");
-//		}
 
 		XSSFWorkbook workbook1 = new XSSFWorkbook();
 		// Create a blank sheet
